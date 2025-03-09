@@ -1,0 +1,10 @@
+# Ignore contents of after and before directories
+after/*
+before/*
+
+# Keep the directories themselves
+!after/.gitkeep
+!before/.gitkeep
+
+# Node.js
+node_modules/ 

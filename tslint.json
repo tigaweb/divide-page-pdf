@@ -1,19 +1,13 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint:recommended"
-    ],
-    "jsRules": {},
-    "rules": {
-        "quotemark": [
-            true,
-            "single"
-        ],
-        "no-console": [
-            true,
-            "debug"
-        ],
-        "no-trailing-whitespace": true
-    },
-    "rulesDirectory": []
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "quotemark": [true, "single"],
+    "no-console": [true, "debug"],
+    "no-trailing-whitespace": true,
+    "semicolon": [true, "never"],
+    "object-literal-sort-keys": false
+  },
+  "rulesDirectory": []
 }

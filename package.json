@@ -4,6 +4,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "lint": "npx tslint --fix index.ts",
+    "format": "npx tslint --fix index.ts && npx prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
